@@ -1,21 +1,24 @@
 # Depĺoyment
 
-## Docker Hub
+## AWS EKS
 
-* Log into the Docker Hub from your local terminal:
+* Log into the Hub from your local terminal:
 
 ```bash
-docker login --email=youremail@company.com
+aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws
 ```
 
 * Build a new version of the image:
 
 ```bash
-docker build -t user/ruby3:1.0.0 .
+docker build -t rails_ruby3.1 .
 ```
 
 * Upload to the hub:
 
 ```bash
-docker push user/ruby3:1.0.0
+docker tag rails_ruby3.1:latest public.ecr.aws/l3f3b4v2/rails_ruby3.1:latest
+docker tag rails_ruby3.1:1.0.0 public.ecr.aws/l3f3b4v2/rails_ruby3.1:1.0.0
+docker push public.ecr.aws/l3f3b4v2/rails_ruby3.1:latest
+docker push public.ecr.aws/l3f3b4v2/rails_ruby3.1:1.0.0
 ```
