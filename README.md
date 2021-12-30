@@ -1,6 +1,11 @@
 # Ruby 3.x Docker Image
 
-Currently building with the Ruby 3.0.3 version.
+Versions available:
+
+| Ruby  | Branch | Latest release |
+|-------|--------|----------------|
+| 3.1.0 |  [Link](https://github.com/Quasar-Flash/rails_ruby3/tree/ruby_3.1)  |     Link       |
+| 3.0.3 |  [Link](https://github.com/Quasar-Flash/rails_ruby3/tree/ruby_3.0.3)  |     [Link](https://github.com/Quasar-Flash/rails_ruby3/releases/tag/v1.0.0)       |
 
 ## How to use it
 
