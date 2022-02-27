@@ -17,8 +17,8 @@ docker build -t rails_ruby3.1 .
 * Upload to the hub:
 
 ```bash
-docker tag rails_ruby3.1:latest public.ecr.aws/l3f3b4v2/rails_ruby3.1:latest
-docker tag rails_ruby3.1:1.0.0 public.ecr.aws/l3f3b4v2/rails_ruby3.1:1.0.0
-docker push public.ecr.aws/l3f3b4v2/rails_ruby3.1:latest
-docker push public.ecr.aws/l3f3b4v2/rails_ruby3.1:1.0.0
+docker tag rails_ruby3.1:latest public.ecr.aws/qflash/rails_ruby3.1:latest
+docker tag rails_ruby3.1:1.1.0 public.ecr.aws/qflash/rails_ruby3.1:1.1.0
+docker push public.ecr.aws/qflash/rails_ruby3.1:latest
+docker push public.ecr.aws/qflash/rails_ruby3.1:1.1.0
 ```

@@ -4,7 +4,7 @@ Versions available:
 
 | Ruby  | Branch | Latest release |
 |-------|--------|----------------|
-| 3.1.0 |  [Link](https://github.com/Quasar-Flash/rails_ruby3/tree/ruby_3.1)  |     [Link](https://github.com/Quasar-Flash/rails_ruby3/releases/tag/v1.0.0-ruby3.1)       |
+| 3.1.1 |  [Link](https://github.com/Quasar-Flash/rails_ruby3/tree/ruby_3.1)  |     [Link](https://github.com/Quasar-Flash/rails_ruby3/releases/tag/v1.1.0-ruby3.1)       |
 | 3.0.3 |  [Link](https://github.com/Quasar-Flash/rails_ruby3/tree/ruby_3.0.3)  |     [Link](https://github.com/Quasar-Flash/rails_ruby3/releases/tag/v1.0.0)       |
 
 ## How to use it
