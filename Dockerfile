@@ -1,4 +1,4 @@
-FROM ruby:3.1-slim-buster
+FROM ruby:3.1.2-slim-buster
 
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8 LANGUAGE=C.UTF-8
 ENV DEBIAN_FRONTEND=noninteractive
