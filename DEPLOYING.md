@@ -18,7 +18,7 @@ docker build -t rails_ruby3.1 .
 
 ```bash
 docker tag rails_ruby3.1:latest public.ecr.aws/qflash/rails_ruby3.1:latest
-docker tag rails_ruby3.1:latest public.ecr.aws/qflash/rails_ruby3.1:1.2.0
+docker tag rails_ruby3.1:latest public.ecr.aws/qflash/rails_ruby3.1:1.2.1
 docker push public.ecr.aws/qflash/rails_ruby3.1:latest
-docker push public.ecr.aws/qflash/rails_ruby3.1:1.2.0
+docker push public.ecr.aws/qflash/rails_ruby3.1:1.2.1
 ```
