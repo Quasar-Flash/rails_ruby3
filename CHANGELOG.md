@@ -1,13 +1,25 @@
 # Changelog
 
-## v1.2.0-ruby3.1-20220418 - [Danilo Carolino](@danilogco)
+## [1.2.1] - 2022-12-01
 
-* Bump `ruby` version to v3.1.2
+### Changed
 
-## v1.1.0-ruby3.1-20220227 - [Danilo Carolino](@danilogco)
+- Bump `ruby` version to v3.1.3
 
-* Bump `ruby` version to v3.1.1
+## [1.2.0] - 2022-04-18
 
-## v1.0.0
+### Changed
 
-* Initial release.
+- Bump `ruby` version to v3.1.2
+
+## [1.1.0] - 2022-02-27
+
+### Changed
+
+- Bump `ruby` version to v3.1.1
+
+## [1.0.0] - 2021-12-23
+
+### Added
+
+- Initial release.
