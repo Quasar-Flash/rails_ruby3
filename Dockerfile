@@ -1,8 +1,8 @@
-FROM ruby:3.1.3-slim-buster
+FROM ruby:3.2.0-slim-bullseye
 
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8 LANGUAGE=C.UTF-8
 ENV DEBIAN_FRONTEND=noninteractive
-ENV GEM_HOME=/usr/local/lib/ruby/gems/3.1.0
+ENV GEM_HOME=/usr/local/lib/ruby/gems/3.2.0
 
 # Locale
 RUN apt-get update -qq && apt-get install -y apt-utils locales && update-locale LANG=C.UTF-8 LC_ALL=C.UTF-8

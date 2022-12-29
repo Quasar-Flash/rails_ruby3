@@ -1,12 +1,5 @@
 # Ruby 3.x Docker Image
 
-Versions available:
-
-| Ruby  | Branch | Latest release |
-|-------|--------|----------------|
-| 3.1.3 |  [Link](https://github.com/Quasar-Flash/rails_ruby3/tree/ruby_3.1)  |     [Link](https://github.com/Quasar-Flash/rails_ruby3/releases/tag/v1.2.1)       |
-| 3.0.3 |  [Link](https://github.com/Quasar-Flash/rails_ruby3/tree/ruby_3.0.3)  |     [Link](https://github.com/Quasar-Flash/rails_ruby3/releases/tag/v1.0.0)       |
-
 ## How to use it
 
 Using ```docker-composer```:
