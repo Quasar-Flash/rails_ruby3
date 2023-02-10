@@ -1,4 +1,4 @@
-FROM ruby:3.2.0-slim-bullseye
+FROM ruby:3.2.1-slim-bullseye
 
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8 LANGUAGE=C.UTF-8
 ENV DEBIAN_FRONTEND=noninteractive

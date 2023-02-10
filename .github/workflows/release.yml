@@ -1,0 +1,13 @@
+name: Release
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+jobs:
+  Deploying:
+    uses: Quasar-Flash/workflow-dpl-action/.github/workflows/basic-release.yml@master
+    with:
+      environment: production
+      environment_url: https://console.aws.amazon.com/ecr/repositories/public/969066181141/qcedente?region=us-east-1
+    secrets: inherit
