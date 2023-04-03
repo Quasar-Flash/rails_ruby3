@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [3.2.2] - 2023-03-03
+
+### Added
+
+- Nova imagem contendo ambiente atualizado para Ruby v3.2.2 por @danilogco
+
+### Changed
+
+- Uso da versão do ruby como a versão do projeto por @danilogco
+
 ## [1.3.0] - 2023-02-10
 
 ### Added
